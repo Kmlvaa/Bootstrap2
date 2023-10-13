@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.navBar {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header_1 {
+  height: 40px;
+  background-color: #F3F3F3;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.header_1 .right a {
+  text-decoration: none;
+  margin-inline: 20px;
+  font-family: "Inter", sans-serif;
+  color: black;
+  font-size: 15px;
+}
+
+.header_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 25px;
+  height: 80px;
+}
+.header_2 .image :hover {
+  cursor: pointer;
+}
+.header_2 .image img {
+  height: 80px;
+  width: 200px;
+}
+.header_2 .content a {
+  text-decoration: none;
+  margin-inline: 10px;
+  color: #0065ed;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
+.header_2 .icons :hover {
+  cursor: pointer;
+}
+.header_2 .icons i {
+  margin-inline: 5px;
+  color: #0065ed;
+}
+
+.container {
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 50px;
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+}
+.container .body_image_4 {
+  width: 600px;
+  height: 500px;
+}
+.container .body_image_4 :hover {
+  cursor: pointer;
+}
+.container .body_image_4 .head-image img {
+  height: 400px;
+  width: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}/*# sourceMappingURL=style.css.map */
