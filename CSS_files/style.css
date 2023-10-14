@@ -5,7 +5,6 @@
 }
 
 .navBar {
-  height: 120px;
   display: flex;
   flex-direction: column;
 }
@@ -16,6 +15,7 @@
   display: flex;
   align-items: center;
   justify-content: end;
+  padding-right: 25px;
 }
 .header_1 .right a {
   text-decoration: none;
@@ -31,13 +31,13 @@
   justify-content: space-between;
   align-items: center;
   margin-inline: 25px;
-  height: 80px;
+  height: 70px;
 }
 .header_2 .image :hover {
   cursor: pointer;
 }
 .header_2 .image img {
-  height: 80px;
+  height: 70px;
   width: 200px;
 }
 .header_2 .content a {
@@ -56,15 +56,15 @@
 }
 
 .container {
-  margin-top: 200px;
+  margin-top: 80px;
   display: grid;
   grid-template-columns: auto auto;
   row-gap: 50px;
-  -moz-column-gap: 100px;
-       column-gap: 100px;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
 }
 .container .body_image_4 {
-  width: 600px;
+  width: 650px;
   height: 500px;
 }
 .container .body_image_4 :hover {
@@ -72,8 +72,174 @@
 }
 .container .body_image_4 .head-image img {
   height: 400px;
-  width: 600px;
+  width: 650px;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10px;
+}
+
+.container-2 :hover {
+  cursor: pointer;
+}
+.container-2 .card {
+  height: 800px;
+  margin-inline: 70px;
+  border: 0;
+}
+.container-2 .card .card-body h2 {
+  font-weight: 300;
+}
+.container-2 .card .card-body h2 i {
+  color: #0065ed;
+}
+.container-2 .card .card-body h5 {
+  font-weight: 100;
+}
+.container-2 .card img {
+  width: 100%;
+  height: 700px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+
+.container-3 {
+  width: 100%;
+  height: 400px;
+  background-image: url("/Main/Images/back-image.webp");
+  background-repeat: no-repeat;
+  -o-object-position: center center;
+     object-position: center center;
+  color: white;
+  padding: 60px 60px;
+  margin-top: 80px;
+}
+.container-3 .header {
+  margin-bottom: 60px;
+}
+.container-3 button {
+  border: 0;
+  border-radius: 3px;
+  padding: 15px 25px;
+  background-color: white;
+  color: #0065ed;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.footer {
+  height: 600px;
+  margin-inline: 70px;
+}
+.footer .section_1 {
+  height: 150px;
+  border-bottom: 2px solid rgb(194, 192, 192);
+}
+.footer .section_1 .image {
+  float: left;
+  margin-block: 25px;
+}
+.footer .section_1 .image :hover {
+  cursor: pointer;
+}
+.footer .section_1 .image img {
+  height: 100px;
+  width: 220px;
+}
+.footer .section_2 {
+  height: 150px;
+  border-bottom: 2px solid rgb(194, 192, 192);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 200px;
+  padding-bottom: 20px;
+}
+.footer .section_2 .left {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+.footer .section_2 .left div:first-child {
+  font-weight: 400px;
+}
+.footer .section_2 .left div:last-child {
+  font-weight: bolder;
+}
+.footer .section_2 .left div:last-child i {
+  color: #0065ed;
+  padding-right: 5px;
+}
+.footer .section_2 .right {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  -moz-column-gap: 120px;
+       column-gap: 120px;
+  row-gap: 10px;
+  font-weight: 100;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+.footer .section_3 {
+  height: 150px;
+  border-bottom: 2px solid rgb(194, 192, 192);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .section_3 .left a {
+  text-decoration: none;
+  color: #0065ed;
+  font-weight: bold;
+  font-size: 18px;
+  padding-right: 40px;
+}
+.footer .section_3 .right button:first-child {
+  border: 1px solid #0065ed;
+  border-radius: 5px;
+  color: #0065ed;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 30px;
+  background-color: white;
+}
+.footer .section_3 .right button:first-child :hover {
+  color: #0c2543;
+}
+.footer .section_3 .right button {
+  margin-left: 15px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.footer .section_3 .right button:not(button:first-child) {
+  width: 30px;
+  height: 30px;
+}
+.footer .section_4 {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  padding-top: 50px;
+}
+.footer .section_4 .text {
+  font-weight: 100;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+.footer .section_4 .right-section {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.footer .section_4 .right-section a {
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: black;
 }/*# sourceMappingURL=style.css.map */
